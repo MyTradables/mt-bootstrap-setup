@@ -1,0 +1,48 @@
+{
+    "name": "@mytradables/mt-bootstrap-setup",
+    "version": "0.0.1",
+    "description": "Setup dependencies for aws-cdk-bootstrap",
+    "main": "commitlint.config.js",
+    "scripts": {
+        "prepare": "npx husky install",
+        "test": "echo nothing to lint",
+        "lint": "echo nothing to lint",
+        "build": "echo nothing to build",
+        "release": "standard-version"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MyTradables/mt-bootstrap-setup.git"
+    },
+    "keywords": [
+        "aws",
+        "cdk",
+        "github",
+        "actions"
+    ],
+    "author": "FarukAda",
+    "license": "UNLICENCED",
+    "bugs": {
+        "url": "https://github.com/MyTradables/mt-bootstrap-setup/issues"
+    },
+    "homepage": "https://github.com/MyTradables/mt-bootstrap-setup#readme",
+    "publishConfig": {
+        "@mytradables:registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@octokit/rest": "^18.12.0",
+        "@octokit/types": "^6.34.0",
+        "@types/camelcase": "^5.2.0",
+        "@types/yargs": "^17.0.4",
+        "acorn": "^8.5.0",
+        "ajv": "^8.6.3",
+        "ajv-keywords": "^5.0.0",
+        "camelcase": "^6.2.0",
+        "dotenv": "^10.0.0",
+        "replace-in-file": "^6.3.2",
+        "simple-git": "^2.47.0",
+        "standard-version": "^9.3.2",
+        "tweetsodium": "0.0.5",
+        "yargs": "^17.2.1"
+    }
+}
